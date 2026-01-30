@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="page">
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-title">RAIZEL MAYE SABINO</h1>
+        <p class="hero-subtitle">Emerging IT Professional | Digital Product Seller</p>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <div class="about-wrapper">
+        <img src="image1.jpg" alt="Portrait of Raizel Maye Sabino" class="profile-photo" />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>Hi! Hello! I'm an IT student in college. My hobby is to make aesthetic templates. Like invitations, flyers, logos, and clothing designs. I'm also a part of a choir and an orchestra in our church. I enjoy both creating and performing that I want to share with others.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill-group">
+          <h3>Technical</h3>
+          <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C#</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Teaching</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Organizational Skills</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container">
+      <h2>Projects & Experience</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Digital Selling</h3>
+          <p>Created and managed digital products for sale on online platforms. Like invitations, flyers, logos, and clothing designs. In different online marketplaces.</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Church Divison Choir</h3>
+          <p>Participated in the church division choir, performing various hymns and musical pieces during services and special events in local church to national event in our church.</p>
+        </article>
+
+         <article class="project-card">
+          <h3>Others</h3>
+          <p>I have experience in public speaking, like hosting an event and tutoring. I have knowledge of Microsoft Word, PowerPoint, and Excel.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact</h2>
+      
+      <div class="contact-info">
+        <div class="info-item">
+          <div class="info-icon">📧</div>
+          <div class="info-content">
+            <h3>Email</h3>
+            <p><a href="mailto:rmssabino24@bpsu.edu.ph" style="color:var(--brand);text-decoration:none">rmssabino24@bpsu.edu.ph</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">💼</div>
+          <div class="info-content">
+            <h3>Phone</h3>
+            <p><a href="tel:+639239407083" style="color:var(--brand);text-decoration:none">+63 912 345 6789</a></p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">f</div>
+          <div class="info-content">
+            <h3>Facebook</h3>
+            <p><a href="https://www.facebook.com/share/1DB3EQY6m9/" target="_blank" rel="noopener" style="color:var(--brand);text-decoration:none">https://www.facebook.com/share/raizelmaye.sabino</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-content">
+        <p>Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.</p>
+        
+        <form id="contact-form" aria-label="Contact form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="Your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <!-- JS can insert year --> <span id="year">2026</span> Raizel Maye S. Sabino. All rights reserved.</p>
+    </div>
+  </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
